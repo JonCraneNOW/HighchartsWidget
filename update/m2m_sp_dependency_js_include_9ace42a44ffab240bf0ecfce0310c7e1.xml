@@ -3,7 +3,7 @@
     <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
         <order>100</order>
         <sp_dependency display_value="Highcharts.js">47ae42a44ffab240bf0ecfce0310c79f</sp_dependency>
-        <sp_js_include display_value="hicharts.js">21be82a44ffab240bf0ecfce0310c799</sp_js_include>
+        <sp_js_include display_value="highcharts.js">21be82a44ffab240bf0ecfce0310c799</sp_js_include>
         <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-14 22:36:10</sys_created_on>

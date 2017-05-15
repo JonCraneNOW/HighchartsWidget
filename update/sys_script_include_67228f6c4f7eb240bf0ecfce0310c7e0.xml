@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_sphighcharts.SPHighChartsRenderer</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SPHighChartsRenderer</name>
+        <script><![CDATA[var SPHighChartsRenderer = Class.create();
+SPHighChartsRenderer.prototype = {
+	initialize: function(instanceGR) {		
+		//Construct the result object
+		this.result = {
+			chart : {
+				renderTo : instanceGR.element + '',
+				type : instanceGR.type.toString().toLowerCase()
+			},
+			credits: {
+				enabled: false
+			},
+			title : {
+				text : instanceGR.title + ''
+			},
+			plotOptions : {},
+			series : []
+		};
+
+		//Run chart type function to provide data to result object
+		this[instanceGR.type.toString().toLowerCase()](instanceGR, this.aggregate(instanceGR));
+		this._nullsToZeros();
+
+		return this.result;
+	},
+
+	aggregate : function(gr){
+		var ga = new GlideAggregate(gr.table);
+		ga.addEncodedQuery(gr.filter);
+		ga.addAggregate('COUNT', gr.group_by);
+		ga.groupBy(gr.group_by);
+
+		if (gr.stacked)
+			ga.groupBy(gr.stacked_by);
+
+		ga.orderBy(gr.group_by);
+		ga.query();
+		return ga;
+	},
+
+	baseAggregate : function(gr, agg, attrs) {
+		this.result.xAxis = {
+			categories : [],
+			title: {  
+				text: gr.title + ''  
+			},  
+			labels: {  
+				rotation: -45  
+			}  
+		};
+
+		this.result.yAxis = {
+			min: 0,  
+			title: {  
+				text:  ''
+			}  	
+		};
+
+		if (gr.stacked && gr.stack_type == 'Stacked') {
+			this.result.plotOptions.series = {
+				stacking: 'normal'
+			};
+		}
+
+		while (agg.next()){
+			var grouping = agg[gr.group_by].getDisplayValue();
+
+			if (this.result.xAxis.categories.indexOf(grouping) < 0)
+				this.result.xAxis.categories.push(grouping);
+
+			if (gr.stacked){
+				var categoryIndex = this.result.xAxis.categories.indexOf(grouping);
+				var pos = this._findObjInArray(this.result.series, 'name', agg[gr.stacked_by].getDisplayValue());
+
+				if (pos < 0){
+					this.result.series.push({
+						name : agg[gr.stacked_by].getDisplayValue(),
+						data: []
+					});
+				}
+
+				var newPos = this._findObjInArray(this.result.series, 'name', agg[gr.stacked_by].getDisplayValue());
+				this.result.series[newPos].data[categoryIndex]= parseInt(agg.getAggregate('COUNT', gr.group_by));
+			} else {
+				if (this._findObjInArray(this.result.series, 'name', gr.group_by.getDisplayValue()) < 0){
+					this.result.series[0] = {
+						name : gr.group_by.getDisplayValue(),
+						legendIndex : 0,
+						showInLegend: false,
+						data : []
+					};
+				}
+
+				this.result.series[0].data.push(parseInt(agg.getAggregate('COUNT', gr.group_by)));
+			}
+		}
+
+	},
+
+	pie : function(gr, agg) {
+		var attributes = {
+			'stackable' : false
+		};
+
+		this.baseAggregate(gr, agg, attributes);
+
+		for (var cnt = 0; cnt < this.result.series[0].data.length; cnt++){
+			this.result.series[0].data[cnt] = [
+				this.result.xAxis.categories[cnt],
+				this.result.series[0].data[cnt]
+			];
+		}
+
+		this.result.plotOptions.pie = {
+			allowPointSelect: true,
+			cursor: 'pointer',
+			dataLabels: {
+				enabled: false
+			}
+		};
+
+
+	},
+
+	line : function(gr, agg) {
+		this.baseAggregate(gr, agg);
+	},
+
+	column : function(gr, agg) {		
+		this.baseAggregate(gr, agg);
+	},
+
+	bar : function(gr, agg) {		
+		this.baseAggregate(gr, agg);
+	},
+
+	area : function(gr, agg) {		
+		this.baseAggregate(gr, agg);
+	},
+
+	_findObjInArray : function(array, name, value) {		
+		for (var pointer = 0; pointer < array.length; pointer++){
+			if (array[pointer][name] == value)
+				return pointer;
+		}
+
+		return -1;
+	},
+
+	_nullsToZeros : function() {
+		for (var cnt = 0; cnt < this.result.series.length; cnt++){
+			for (var cnt2 = 0; cnt2 < this.result.series[cnt].data.length; cnt2++){
+				if (this.result.series[cnt].data[cnt2] == null)
+					this.result.series[cnt].data[cnt2] = 0;
+			}
+		}
+	},
+
+	type: 'SPHighChartsRenderer'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-15 02:22:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>67228f6c4f7eb240bf0ecfce0310c7e0</sys_id>
+        <sys_mod_count>57</sys_mod_count>
+        <sys_name>SPHighChartsRenderer</sys_name>
+        <sys_package display_value="Highcharts Widget" source="x_snc_sphighcharts">81acc2244ffab240bf0ecfce0310c7b5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Highcharts Widget">81acc2244ffab240bf0ecfce0310c7b5</sys_scope>
+        <sys_update_name>sys_script_include_67228f6c4f7eb240bf0ecfce0310c7e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-15 20:35:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

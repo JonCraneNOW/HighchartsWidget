@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Table, Filter &amp; Fields" section_id="8c2212684ffab240bf0ecfce0310c7e2" sys_domain="global" table="x_snc_sphighcharts_sp_instance_highchart" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 19:54:32</sys_created_on>
+            <sys_id>6c6336304f7af240bf0ecfce0310c7d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Table, Filter &amp; Fields" display_value="Table, Filter &amp; Fields" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">8c2212684ffab240bf0ecfce0310c7e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 19:54:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>filter</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 19:54:32</sys_created_on>
+            <sys_id>e06336304f7af240bf0ecfce0310c7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Table, Filter &amp; Fields" display_value="Table, Filter &amp; Fields" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">8c2212684ffab240bf0ecfce0310c7e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 19:54:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Table, Filter &amp; Fields</caption>
+            <header>false</header>
+            <name>x_snc_sphighcharts_sp_instance_highchart</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-14 22:50:45</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c2212684ffab240bf0ecfce0310c7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table, Filter &amp; Fields</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Highcharts Widget" source="x_snc_sphighcharts">81acc2244ffab240bf0ecfce0310c7b5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Highcharts Widget">81acc2244ffab240bf0ecfce0310c7b5</sys_scope>
+            <sys_update_name>sys_ui_section_8c2212684ffab240bf0ecfce0310c7e2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-14 22:50:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

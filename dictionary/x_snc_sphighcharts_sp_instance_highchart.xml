@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sp_instance_table" label="Instance with Highchart" max_length="40" name="x_snc_sphighcharts_sp_instance_highchart" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Element" max_length="40" name="element" type="string"/>
+        <element dependent="table" dependent_on_field="table" label="Group by" max_length="80" name="group_by" type="field_name" use_dependent_field="true"/>
+        <element label="Stacked" max_length="40" name="stacked" type="boolean"/>
+        <element dependent="table" dependent_on_field="table" label="Stacked by" max_length="80" name="stacked_by" type="field_name" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stack type" max_length="40" name="stack_type" type="string">
+            <choice>
+                <element label="Stacked" sequence="0" value="Stacked"/>
+                <element label="Grouped" sequence="1" value="Grouped"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element label="Bar" sequence="0" value="Bar"/>
+                <element label="Column" sequence="1" value="Column"/>
+                <element label="Area" sequence="2" value="Area"/>
+                <element label="Pie" sequence="3" value="Pie"/>
+                <element label="Line" sequence="4" value="Line"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="xAxis title" max_length="40" name="xaxis_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="yAxis title" max_length="40" name="yaxis_title" type="string"/>
+    </element>
+</database>

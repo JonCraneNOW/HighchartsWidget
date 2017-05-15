@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>false</disabled>
+        <field>element</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-15 20:22:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>72a97a744f7af240bf0ecfce0310c789</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>element</sys_name>
+        <sys_package display_value="Highcharts Widget" source="x_snc_sphighcharts">81acc2244ffab240bf0ecfce0310c7b5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Highcharts Widget">81acc2244ffab240bf0ecfce0310c7b5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_72a97a744f7af240bf0ecfce0310c789</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-15 20:23:16</sys_updated_on>
+        <table>x_snc_sphighcharts_sp_instance_highchart</table>
+        <ui_policy display_value="Require Element">1d89f6744f7af240bf0ecfce0310c757</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

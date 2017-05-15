@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Chart options" section_id="96d622284f3eb240bf0ecfce0310c769" sys_domain="global" table="x_snc_sphighcharts_sp_instance_highchart" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>0480c3f84f7af240bf0ecfce0310c755</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>xaxis_title</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>cc80c3f84f7af240bf0ecfce0310c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yaxis_title</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>4080c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>element</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>c080c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>4480c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>c480c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>4880c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stacked</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>c880c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stacked_by</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>4c80c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stack_type</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>cc80c3f84f7af240bf0ecfce0310c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>4080c3f84f7af240bf0ecfce0310c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>theme</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 20:51:51</sys_created_on>
+            <sys_id>c080c3f84f7af240bf0ecfce0310c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chart options" display_value="Chart options" name="x_snc_sphighcharts_sp_instance_highchart" sys_domain="global" view="Default view">96d622284f3eb240bf0ecfce0310c769</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 20:51:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Chart options</caption>
+            <header>false</header>
+            <name>x_snc_sphighcharts_sp_instance_highchart</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-15 00:21:18</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96d622284f3eb240bf0ecfce0310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Chart options</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Highcharts Widget" source="x_snc_sphighcharts">81acc2244ffab240bf0ecfce0310c7b5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Highcharts Widget">81acc2244ffab240bf0ecfce0310c7b5</sys_scope>
+            <sys_update_name>sys_ui_section_96d622284f3eb240bf0ecfce0310c769</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-15 00:21:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

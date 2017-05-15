@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_sphighcharts_sp_instance_highchart">
+    <x_snc_sphighcharts_sp_instance_highchart action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <element>Chart1</element>
+        <field_list/>
+        <filter table="incident">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <group_by>category</group_by>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3bb29e684ffab240bf0ecfce0310c757</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Highcharts">990d8e244ffab240bf0ecfce0310c7b3</sp_widget>
+        <stack_type>Grouped</stack_type>
+        <stacked>true</stacked>
+        <stacked_by>state</stacked_by>
+        <sys_class_name>x_snc_sphighcharts_sp_instance_highchart</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-14 23:55:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>15f0a2644f3eb240bf0ecfce0310c7b5</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Incidents by State</sys_name>
+        <sys_package display_value="Highcharts Widget" source="x_snc_sphighcharts">81acc2244ffab240bf0ecfce0310c7b5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Highcharts Widget">81acc2244ffab240bf0ecfce0310c7b5</sys_scope>
+        <sys_update_name>x_snc_sphighcharts_sp_instance_highchart_15f0a2644f3eb240bf0ecfce0310c7b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-15 20:52:16</sys_updated_on>
+        <table>incident</table>
+        <title>Incidents by State</title>
+        <type>Bar</type>
+        <url/>
+        <widget_parameters/>
+        <xaxis_title/>
+        <yaxis_title/>
+    </x_snc_sphighcharts_sp_instance_highchart>
+    <sys_translated_text action="delete_multiple" query="documentkey=15f0a2644f3eb240bf0ecfce0310c7b5"/>
+</record_update>
